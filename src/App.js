@@ -3,11 +3,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 //import Header from './components/layout/Header';
 
-//import Footer from './components/layout/Footer';
-//import Main from './components/pages/Main';
+import Footer from './components/layout/Footer';
+import Main from './components/pages/Main';
 //import Portfolio from './components/pages/Portfolio';
 //import Resume from './components/pages/Resume';
-import About from './components/pages/About';
+//import About from './components/pages/About';
 //import Contact from './components/pages/Contact';
 import "./App.css";
 
@@ -23,14 +23,13 @@ function App() {
       <Router>
         <div className="App">
           <div className="container">
-          <Route path="/about" component={About} />
-            {/* <Header/>
+            {/* <Header/> */}
             <Route exact path="/" component={Main} />
-            <Route path="/about" component={About} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact} /> */}
-            {/* <Footer/> */}
+            {/* <Route path="/about" component={About} /> */}
+            {/* <Route path="/resume" component={Resume} /> */}
+            {/* <Route path="/portfolio" component={Portfolio} /> */}
+            {/* <Route path="/contact" component={Contact} /> */}
+            <Footer/>
           </div>
         </div>
       </Router>      
