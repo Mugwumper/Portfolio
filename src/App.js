@@ -1,7 +1,7 @@
 //import React, { useState } from 'react';
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-//import Header from './components/layout/Header';
+import Header from './components/layout/Header';
 
 import Footer from './components/layout/Footer';
 import Main from './components/pages/Main';
@@ -23,7 +23,7 @@ function App() {
       <Router>
         <div className="App">
           <div className="container">
-            {/* <Header/> */}
+            <Header/>
             <Route exact path="/" component={Main} />
             <Route path="/about" component={About} />
             <Route path="/resume" component={Resume} />
