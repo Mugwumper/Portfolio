@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.73d7d8d7.chunk.css",
-    "main.js": "/Portfolio/static/js/main.4e9c7440.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.4e9c7440.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.665a1c84.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.665a1c84.js.map",
-    "static/css/2.928145c7.chunk.css": "/Portfolio/static/css/2.928145c7.chunk.css",
-    "static/js/2.49263e7a.chunk.js": "/Portfolio/static/js/2.49263e7a.chunk.js",
-    "static/js/2.49263e7a.chunk.js.map": "/Portfolio/static/js/2.49263e7a.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.c2dcc66d483d5599b7c59d8a11839e6f.js": "/Portfolio/precache-manifest.c2dcc66d483d5599b7c59d8a11839e6f.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.928145c7.chunk.css.map": "/Portfolio/static/css/2.928145c7.chunk.css.map",
-    "static/css/main.73d7d8d7.chunk.css.map": "/Portfolio/static/css/main.73d7d8d7.chunk.css.map",
-    "static/media/react-bootstrap-carousel.css": "/Portfolio/static/media/react-bootstrap-carousel.f86d9bf3.svg"
+    "main.css": "/Port2/static/css/main.cd523215.chunk.css",
+    "main.js": "/Port2/static/js/main.6eddd82c.chunk.js",
+    "main.js.map": "/Port2/static/js/main.6eddd82c.chunk.js.map",
+    "runtime-main.js": "/Port2/static/js/runtime-main.bc340fa4.js",
+    "runtime-main.js.map": "/Port2/static/js/runtime-main.bc340fa4.js.map",
+    "static/css/2.eeedd492.chunk.css": "/Port2/static/css/2.eeedd492.chunk.css",
+    "static/js/2.b2b94bb8.chunk.js": "/Port2/static/js/2.b2b94bb8.chunk.js",
+    "static/js/2.b2b94bb8.chunk.js.map": "/Port2/static/js/2.b2b94bb8.chunk.js.map",
+    "index.html": "/Port2/index.html",
+    "precache-manifest.3cf6f568a3eccb5b7c5e2a6c71aef1fd.js": "/Port2/precache-manifest.3cf6f568a3eccb5b7c5e2a6c71aef1fd.js",
+    "service-worker.js": "/Port2/service-worker.js",
+    "static/css/2.eeedd492.chunk.css.map": "/Port2/static/css/2.eeedd492.chunk.css.map",
+    "static/css/main.cd523215.chunk.css.map": "/Port2/static/css/main.cd523215.chunk.css.map",
+    "static/media/react-bootstrap-carousel.css": "/Port2/static/media/react-bootstrap-carousel.f86d9bf3.svg"
   }
 }
