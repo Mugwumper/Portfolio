@@ -4,7 +4,6 @@ function Project_RPS () {
     return (
         <div>
             <h1>Rock Paper Scissors - Multiplayer</h1>
-            <p>
             <h2>Description</h2>
             <p>This game can be used by two people (or two instances on one machine). It uses Firebase to track each player’s selection. It will keep a running score as well.</p>
             <p>Beyond the assignment’s requirements I’ve added a few things.</p>
@@ -21,7 +20,6 @@ function Project_RPS () {
             <li>Firebase Database</li>
             <li>JQuery</li>
             </ul>
-            </p>
             <p>The Game: <a href="https://mugwumper.github.io/RPS-Multiplayer/" target="_blank"  rel="noopener noreferrer">Rock Paper Scissors - Multiplayer</a></p>
             <p>The Code: <a href="https://github.com/Mugwumper/RPS-Multiplayer" target="_blank"  rel="noopener noreferrer">RPS-Multiplayer</a></p>
         </div>

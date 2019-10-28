@@ -9,6 +9,16 @@ function Project_FF () {
             <h2> Description</h2>
 
             <p>*Friend Finder* is an application meant to simulate a dating app. It asks the user 10 questions in a survey and based on the responses the closest match is found and returned.</p> 
+            <p>
+                Video:{" "}
+                <a
+                href={process.env.PUBLIC_URL + "/images/Friend_Finder.mp4"}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                mp4
+                </a>
+            </p>
 
             <h2>Technologies used</h2>
             <ul>
@@ -20,5 +30,6 @@ function Project_FF () {
         </div>
     )
 }
+
 
 export default Project_FF;

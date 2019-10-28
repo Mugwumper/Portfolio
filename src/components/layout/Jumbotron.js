@@ -1,52 +1,43 @@
 import React, { useState, useCallback, useRef } from "react";
-//import ReactDOM from "react-dom";
 import RBCarousel from "react-bootstrap-carousel";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-//import { Row, Col, Button, ButtonGroup } from "./bootstrap-component.jsx";
 import { Col } from "./bootstrap-component.jsx";
 import { rContext_ShowMore } from "../../App";
 //import JumbotronSlide from "./JumbotronSlide";
 
-//const styles = { height: 400, width: "100%" };
-//const icon_glass = <span className="glyphicon glyphicon-glass" />;
-//const icon_music = <span className="glyphicon glyphicon-music" />;
-
 // for original source see the following: 
 //https://github.com/skycloud1030/react-bootstrap-carousel/blob/gh-pages/app/demoV4.jsx
 
-
 function Jumbotron() {
-  //const doShowMore = React.useContext(rContext_ShowMore).doShowMore;
   let localsetShowMoreX = React.useContext(rContext_ShowMore).setShowMoreX;
   const [autoplay, setAutoplay] = useState(true);
   const [wasClicked, setWasClicked] = useState(false);
-  const [showMore, setShowMore] = useState(false);
-  //const [icon, setIcon] = useState({});
   const [icon] = useState({});
   const slider_ref = useRef(null);
   const _autoplay = useCallback(() => setAutoplay(autoplay => !autoplay), []);
   const _onSelect = useCallback((active, direction) => {
-    console.log(`active=${active}  - direction=${direction}`);
-    setShowMore(true);
+    // This fires when a next/back/or specific slide selector (bottom buttons) are clicked.
+    console.log(`activeItem=${active}  - direction=${direction}`);
     localsetShowMoreX({current: active, show: false});
+    // autoplay may already be true but set it here to start if stopped. 
+    setAutoplay(true); /// turn on autoplay
     }, [localsetShowMoreX]);
   React.useEffect(() => {
-    console.log("React.useEffect");
+    //console.log("React.useEffect");
     if (wasClicked) {
         console.log("wasClicked: " + wasClicked);
-        setShowMore(true);
-        //localsetShowMoreX(false);
         setWasClicked(false);
       }
-  }, [wasClicked, showMore, localsetShowMoreX]);
+  }, [wasClicked, localsetShowMoreX]);
 
   function handleClicked(event) {
     setWasClicked(true);
   }
 
-  function clickToLearnMore(index) {
+  function clickToLearnMore(index) { // user clicked "Click to learn more"
     console.log("clickToLearnMore");
     localsetShowMoreX({current: index, show: true});
+    setAutoplay(true); // turns off autoplay (shouldn't that be 'false'? - but this works)
   }
 
   return (
@@ -55,7 +46,7 @@ function Jumbotron() {
       <RBCarousel
                   animation={true}
                   autoplay={autoplay}
-                  slideshowSpeed={2000}
+                  slideshowSpeed={5000}
                   defaultActiveIndex={0}
                   leftIcon={icon.leftIcon}
                   rightIcon={icon.rightIcon}

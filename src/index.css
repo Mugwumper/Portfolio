@@ -14,7 +14,10 @@ code {
 
 .activeItem {
   filter: brightness(150%);
-  /* margin: 15px; */
+}
+
+.navbar-brand:hover {
+  filter: brightness(60%);
 }
 
 .nav-link {

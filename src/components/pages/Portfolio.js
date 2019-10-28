@@ -17,7 +17,7 @@ import Project_FRH from "./projects/Project_FRH";
 import { rContext_ShowMore } from "../../App";
 
 function Portfolio () {
-    console.log(React.useContext(rContext_ShowMore).doShowMore);
+    //console.log(React.useContext(rContext_ShowMore).doShowMore);
     const show = React.useContext(rContext_ShowMore).doShowMore.show;
     const current = React.useContext(rContext_ShowMore).doShowMore.current;
     const show_dj   = (show && (current === 0));
@@ -34,53 +34,24 @@ function Portfolio () {
     const show_pup  = (show && (current === 11));
     const show_clg  = (show && (current === 12));
     const show_frh  = (show && (current === 13));
-    //let setShowMoreX = React.useContext(rContext_ShowMore).setShowMore;
       return (
         <div>
             {/* <h1>Portolio Projects</h1> */}
             <Jumbotron />
-            {show_dj ?             
-                Project_Dream_Journal()   
-            : null }
-            {show_gt ?             
-                Project_GifTastic()   
-            : null }
-            {show_cg ?             
-                Project_Crystal_Game()   
-            : null }
-            {show_rps ?             
-                Project_RPS()   
-            : null }
-            {show_wgg ?             
-                Project_WGG()   
-            : null }
-            {show_ff ?             
-                Project_FF()   
-            : null }
-            {show_bam ?             
-                Project_Bam()   
-            : null }
-            {show_tg ?             
-                Project_TG()   
-            : null }
-            {show_liri ?             
-                Project_Liri()   
-            : null }
-            {show_edb ?             
-                Project_EDB()   
-            : null }
-            {show_ms ?             
-                Project_MS()   
-            : null }
-            {show_pup ?             
-                Project_Pup()   
-            : null }
-            {show_clg ?             
-                Project_CG()   
-            : null }
-            {show_frh ?             
-                Project_FRH()   
-            : null }
+            {show_dj   ? Project_Dream_Journal() : null }
+            {show_gt   ? Project_GifTastic()     : null }
+            {show_cg   ? Project_Crystal_Game()  : null }
+            {show_rps  ? Project_RPS()           : null }
+            {show_wgg  ? Project_WGG()           : null }
+            {show_ff   ? Project_FF()            : null }
+            {show_bam  ? Project_Bam()           : null }
+            {show_tg   ? Project_TG()            : null }
+            {show_liri ? Project_Liri()          : null }
+            {show_edb  ? Project_EDB()           : null }
+            {show_ms   ? Project_MS()            : null }
+            {show_pup  ? Project_Pup()           : null }
+            {show_clg  ? Project_CG()            : null }
+            {show_frh  ? Project_FRH()           : null }
         </div>
     )
 }

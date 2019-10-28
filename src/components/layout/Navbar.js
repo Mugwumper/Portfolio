@@ -6,8 +6,9 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navbar-toggleable-sm">
-      <NavLink className="normal navbar-brand" to="/">
-      <img src={process.env.PUBLIC_URL + "/favicon.ico"} width="30" height="30" className="d-inline-block align-top" alt=""></img>
+      <NavLink exact className="normal navbar-brand" activeClassName="activeItem" to="/"
+      activeStyle={{ filter: "brightness(250%)" }}>
+      <img src={process.env.PUBLIC_URL + "/favicon.png"} width="20" height="20" className="d-inline-block align-top" alt=""></img>
       </NavLink>
       <button
         className="navbar-toggler"
