@@ -165,7 +165,7 @@ function Jumbotron() {
           />
           <div onClick={() => clickToLearnMore(10)} className="carousel-caption">Click to learn more</div>
       </div>
-      <div 
+      {/* <div 
            style={{ height: 400 }}
            onClick={_autoplay}>
           <img
@@ -174,7 +174,7 @@ function Jumbotron() {
             alt="Pupster"
           />
           <div onClick={() => clickToLearnMore(11)} className="carousel-caption">Click to learn more</div>
-      </div>
+      </div> */}
       <div 
            style={{ height: 400 }}
            onClick={_autoplay}>
