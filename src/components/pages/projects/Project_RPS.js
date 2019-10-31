@@ -15,7 +15,7 @@ function Project_RPS () {
             <p>Admittedly this is used more for my own debugging but it does offer a place where user name can be entered. Control panel is accessable by clicking on the gear icon in the upper left.</p>
             <h4>Bugs:</h4>
             <p>There is an issue where at times the both instances appear as ‘Player 2’. To work around this I’ve added the ability to ‘Force this to be Player 1’ in the control panel.</p>
-            <h2>Technoligies:</h2>
+            <h2>Technologies:</h2>
             <ul>
             <li>Firebase Database</li>
             <li>JQuery</li>

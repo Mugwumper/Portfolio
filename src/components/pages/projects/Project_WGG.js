@@ -5,7 +5,7 @@ function Project_WGG () {
         <div>
             <h1>Word Guess Game</h1>
             <h2>gameplay</h2>
-            <p>To play press any key, it will start the engines (background sounds). Once a game is complete advance to the next word by pressing "NEXT".</p> 
+            <p>To play press any key, it will start the engines (background sounds). Once a game is complete, advance to the next word by pressing "NEXT".</p> 
 
             <p>Wins and Losses are tallied in the 'computer readout' (small text above the buttons).</p>
 
@@ -28,8 +28,6 @@ function Project_WGG () {
 
             <h4>Game Engine</h4>
             <p>The mechanics of this game are 100% my own.</p>
-
-
             <p>
                 Video:{" "}
                 <a
