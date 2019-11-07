@@ -7,7 +7,7 @@ function Project_FRH () {
             <h2>AKA: Something To Talk About</h2>
             <p>This app will take a collection of people’s birthdays and create a concise document of things that happened on each of the birthdays. It would be used for planning family reunions to generate a document that includes the collection of reunion attendees and the events and details of life at the time of their birthdays.</p>
             <p>Give a calendar date and this app will detail what life was like at that point in time.</p>
-            <p>Heroku deployment: <a href="https://dashboard.heroku.com/apps/something-to-talk-about">https://dashboard.heroku.com/apps/something-to-talk-about</a></p>
+            <p>Heroku deployment: <a href="https://something-to-talk-about.herokuapp.com/"  target="_blank"  rel="noopener noreferrer">https://something-to-talk-about.herokuapp.com/</a></p>
             <h2>Technoligies Used</h2>
             <ul>
             <li>Node.js</li>

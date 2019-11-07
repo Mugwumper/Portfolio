@@ -19,21 +19,21 @@ import { rContext_ShowMore } from "../../App";
 function Portfolio () {
     //console.log(React.useContext(rContext_ShowMore).doShowMore);
     const show = React.useContext(rContext_ShowMore).doShowMore.show;
-    const current = React.useContext(rContext_ShowMore).doShowMore.current;
-    const show_dj   = (show && (current === 0));
-    const show_gt   = (show && (current === 1));
-    const show_cg   = (show && (current === 2));
-    const show_rps  = (show && (current === 3));
-    const show_wgg  = (show && (current === 4));
-    const show_ff   = (show && (current === 5));
-    const show_bam  = (show && (current === 6));
-    const show_tg   = (show && (current === 7));
-    const show_liri = (show && (current === 8));
-    const show_edb  = (show && (current === 9));
-    const show_ms   = (show && (current === 10));
-    const show_pup  = (show && (current === 11));
-    const show_clg  = (show && (current === 12));
-    const show_frh  = (show && (current === 13));
+    const currentProjID = React.useContext(rContext_ShowMore).doShowMore.current;
+    const show_dj   = (show && (currentProjID === 0));
+    const show_gt   = (show && (currentProjID === 1));
+    const show_cg   = (show && (currentProjID === 2));
+    const show_rps  = (show && (currentProjID === 3));
+    const show_wgg  = (show && (currentProjID === 4));
+    const show_ff   = (show && (currentProjID === 5));
+    const show_bam  = (show && (currentProjID === 6));
+    const show_tg   = (show && (currentProjID === 7));
+    const show_liri = (show && (currentProjID === 8));
+    const show_edb  = (show && (currentProjID === 9));
+    const show_ms   = (show && (currentProjID === 10));
+    const show_pup  = (show && (currentProjID === 11));
+    const show_clg  = (show && (currentProjID === 12));
+    const show_frh  = (show && (currentProjID === 13));
       return (
         <div>
             {/* <h1>Portolio Projects</h1> */}
