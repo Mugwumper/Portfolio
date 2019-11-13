@@ -17,7 +17,6 @@ import Project_FRH from "./projects/Project_FRH";
 import { rContext_ShowMore } from "../../App";
 
 function Portfolio () {
-    //console.log(React.useContext(rContext_ShowMore).doShowMore);
     const show = React.useContext(rContext_ShowMore).doShowMore.show;
     const currentProjID = React.useContext(rContext_ShowMore).doShowMore.current;
     const show_dj   = (show && (currentProjID === 0));

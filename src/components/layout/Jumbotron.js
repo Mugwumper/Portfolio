@@ -34,9 +34,9 @@ function Jumbotron() {
     setWasClicked(true);
   }
 
-  function clickToLearnMore(projID) { // user clicked "Click to learn more"
+  function clickToLearnMore(index) { // user clicked "Click to learn more"
     console.log("clickToLearnMore");
-    localsetShowMoreX({current: projID, show: true});
+    localsetShowMoreX({current: index, show: true});
     setAutoplay(true); // turns off autoplay (shouldn't that be 'false'? - but this works)
   }
 
@@ -60,7 +60,7 @@ function Jumbotron() {
             onClick={_autoplay}>
           <img
             style={{ width: "100%", height: "100%", filter: "brightness(50%)" }}
-            src={process.env.PUBLIC_URL + "/Dream Journal Jumbotron.png"} 
+            src={process.env.PUBLIC_URL + "/images/Dream Journal Jumbotron.png"} 
             alt="Dream Journal"
           />
           <div onClick={() => clickToLearnMore(0)} className="carousel-caption">Click to learn more</div>
