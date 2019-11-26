@@ -54,7 +54,6 @@ function Jumbotron() {
                   ref={slider_ref}
                   version={4}
       >
-
       <div  
             style={{ height: 400 }}
             onClick={_autoplay}>
