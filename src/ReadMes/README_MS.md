@@ -6,7 +6,9 @@ Scrape the New York Times homepage, then save and add notes to your favorite art
 
 ![NYT Scape Demo](public/assets/images/Mongo_Scraper.mp4 "NYT Mongo Scraper Demo")
 
-For a live example, see a deployed version to Heroku at [https://thawing-waters-71746.herokuapp.com/](https://thawing-waters-71746.herokuapp.com/ "deployed example")
+<!-- For a live example, see a deployed version to Heroku at [https://thawing-waters-71746.herokuapp.com/](https://thawing-waters-71746.herokuapp.com/ "deployed example") -->
+For a live example, see a deployed version to Heroku at [https://thawing-waters-71746.herokuapp.com/](https://thawing-waters-71746.herokuapp.com/ "~~deployed example~~ Herocuapp.com has sense removed the this")
+
 
 ## Technologies Used
 - Node.js
